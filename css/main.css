@@ -22,6 +22,7 @@ img {
 
 h3 {
   margin: 0 0 1em 0;
+  font-weight: bold;
 }
 
 
@@ -59,9 +60,6 @@ h1 {
 .jumbotron h1 {
   color: orange;
 }
-
-
-
 
 
 /**********************************
@@ -119,20 +117,10 @@ PAGE: PORTFOLIO
   color: green;
 }
 
-.row {
-  border: 1px dotted blue;
-}
-
-.col1,
-.col2,
-.col3 {
-  border: 2px solid red;
-}
-
-.col1 p,
-.col2 p,
-.col3 p {
+.row h2 {
   text-align: center;
+  font-weight: bold;
+  color: orange;
 }
 
 /**********************************
@@ -140,13 +128,15 @@ PAGE: ABOUT
 ***********************************/
 
 .profile-photo {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 30%;
+  text-align: right;
+  width: 100%;
+
 }
 
-
+.about {
+  width: 100%;
+  text-align: left;
+}
 
 /**********************************
 PAGE: CONTACT
